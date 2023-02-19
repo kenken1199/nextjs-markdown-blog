@@ -5,12 +5,21 @@ const index = () => {
   return (
     <>
       <Image
-        src="/nextjs.png"
+        src="/header.png"
         alt="Picture of the author"
         width={1400}
         height={1200}
       />
       <div className="border-2 border-gray-100"></div>
+      <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+        <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
+          "Nothing in the world is more common than unsuccessful people with
+          talent, leave the house before you find something worth staying in
+          for."
+          <br />
+          ── Banksy
+        </p>
+      </blockquote>
       <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
         <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
           "Stay hungry, stay foolish."
@@ -25,13 +34,6 @@ const index = () => {
           ── 明石家さんま
         </p>
       </blockquote>
-      {/* <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
-        <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
-          "Flowbite is just awesome. It contains tons of predesigned components
-          and pages starting from login screen to complex dashboard. Perfect
-          choice for your next SaaS application."
-        </p>
-      </blockquote> */}
       <div className="border-2 border-gray-100 mb-10"></div>
       <div className="sm:flex justify-between">
         <Link
