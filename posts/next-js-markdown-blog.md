@@ -47,6 +47,6 @@ export default MyApp;
 
 npx create-next-app コマンドを利用して Next.js プロジェクトの作成を行います。
 
-<img src="http://localhost:3000/nextjs-welcome.png" alt="Next.jsのWelcomeページ" width="1024" height="679" />
+<img src="https://delightful-malabi-a77eeb.netlify.app/nextjs-welcome.png" alt="Next.jsのWelcomeページ" width="1024" height="679" />
 
 npx create-next-app コマンドを利用して Next.js プロジェクトの作成を行います。
