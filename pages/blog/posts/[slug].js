@@ -138,6 +138,7 @@ const Post = ({ frontMatter, content, slug }) => {
             width={1200}
             height={700}
             alt={frontMatter.title}
+            className="m-0"
           />
         </div>
         <h1 className="mt-12">{frontMatter.title}</h1>
