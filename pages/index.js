@@ -10,49 +10,49 @@ const index = () => {
         width={1400}
         height={1200}
       />
-      <div class="border-2 border-gray-100"></div>
-      <blockquote class="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
-        <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
+      <div className="border-2 border-gray-100"></div>
+      <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+        <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
           "Flowbite is just awesome. It contains tons of predesigned components
           and pages starting from login screen to complex dashboard. Perfect
           choice for your next SaaS application."
         </p>
       </blockquote>
-      <blockquote class="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
-        <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
+      <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+        <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
           "Flowbite is just awesome. It contains tons of predesigned components
           and pages starting from login screen to complex dashboard. Perfect
           choice for your next SaaS application."
         </p>
       </blockquote>
-      <blockquote class="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
-        <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
+      <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+        <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
           "Flowbite is just awesome. It contains tons of predesigned components
           and pages starting from login screen to complex dashboard. Perfect
           choice for your next SaaS application."
         </p>
       </blockquote>
-      <div class="border-2 border-gray-100 mb-10"></div>
-      <div className="mb-10  sm:flex justify-between">
+      <div className="border-2 border-gray-100 mb-10"></div>
+      <div className="sm:flex justify-between">
         <Link
           href="blog"
-          class="block sm:w-[430px] p-6 m-2  bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          className="block sm:w-[430px] p-6 sm:m-0 mb-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
         >
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Blog
           </h5>
-          <p class="font-normal text-gray-700 dark:text-gray-400">
+          <p className="font-normal text-gray-700 dark:text-gray-400">
             Technology, English, Interest
           </p>
         </Link>
         <Link
           href="about"
-          class="block sm:w-[430px] p-6 m-2  bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          className="block sm:w-[430px] p-6 sm:m-0  bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
         >
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             About
           </h5>
-          <p class="font-normal text-gray-700 dark:text-gray-400">
+          <p className="font-normal text-gray-700 dark:text-gray-400">
             Profile, Contact, etc...
           </p>
         </Link>

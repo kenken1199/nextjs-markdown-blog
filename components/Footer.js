@@ -6,15 +6,15 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100">
       <div className="max-w-4xl mx-auto flex justify-between items-center h-24">
-        <Link className="ml-2" href="/">
-          © My Blog
+        <Link className="ml-6 sm:m-0" href="/">
+          © kenken1199
         </Link>
         <div className="flex">
-          <Link href="https://twitter.com/kenken_1199" className="pr-5">
-            <TwitterIcon />
+          <Link className="pr-6" href="https://twitter.com/kenken_1199">
+            <TwitterIcon className="w-10 h-10" />
           </Link>
-          <Link className="mr-2" href="https://github.com/kenken1199">
-            <GitHubIcon />
+          <Link className="pr-6 sm:p-0" href="https://github.com/kenken1199">
+            <GitHubIcon className="w-10 h-10" />
           </Link>
         </div>
       </div>
