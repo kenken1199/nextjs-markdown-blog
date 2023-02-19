@@ -1,5 +1,5 @@
 export default {
-  title: "Next.js Blog",
+  title: "kenken1199",
   description: "Next.jsなどの技術情報を発信するブログです。",
   openGraph: {
     type: "website",

@@ -13,25 +13,25 @@ const index = () => {
       <div className="border-2 border-gray-100"></div>
       <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
         <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
-          "Flowbite is just awesome. It contains tons of predesigned components
-          and pages starting from login screen to complex dashboard. Perfect
-          choice for your next SaaS application."
+          "Stay hungry, stay foolish."
+          <br />
+          ── Steve Jobs
         </p>
       </blockquote>
       <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+        <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
+          "生きてるだけで丸儲け"
+          <br />
+          ── 明石家さんま
+        </p>
+      </blockquote>
+      {/* <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
         <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
           "Flowbite is just awesome. It contains tons of predesigned components
           and pages starting from login screen to complex dashboard. Perfect
           choice for your next SaaS application."
         </p>
-      </blockquote>
-      <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
-        <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
-          "Flowbite is just awesome. It contains tons of predesigned components
-          and pages starting from login screen to complex dashboard. Perfect
-          choice for your next SaaS application."
-        </p>
-      </blockquote>
+      </blockquote> */}
       <div className="border-2 border-gray-100 mb-10"></div>
       <div className="sm:flex justify-between">
         <Link
