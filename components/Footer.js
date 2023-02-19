@@ -11,10 +11,10 @@ const Footer = () => {
         </Link>
         <div className="flex">
           <Link className="pr-6" href="https://twitter.com/kenken_1199">
-            <TwitterIcon className="w-10 h-10" />
+            <TwitterIcon fontSize="large" />
           </Link>
           <Link className="pr-6 sm:p-0" href="https://github.com/kenken1199">
-            <GitHubIcon className="w-10 h-10" />
+            <GitHubIcon fontSize="large" />
           </Link>
         </div>
       </div>
