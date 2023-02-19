@@ -43,10 +43,10 @@ export default MyApp;
 
 [記事一覧](/blog)
 
-![Next.jsのWelcomeページ](https://delightful-malabi-a77eeb.netlify.app/nextjs-welcome.png)
+![Next.jsのWelcomeページ](https://kenken1199.netlify.app/nextjs-welcome.png)
 
 npx create-next-app コマンドを利用して Next.js プロジェクトの作成を行います。
 
-<img src="https://delightful-malabi-a77eeb.netlify.app/nextjs-welcome.png" alt="Next.jsのWelcomeページ" width="1024" height="679" />
+<img src="https://kenken1199.netlify.app/nextjs-welcome.png" alt="Next.jsのWelcomeページ" width="1024" height="679" />
 
 npx create-next-app コマンドを利用して Next.js プロジェクトの作成を行います。
