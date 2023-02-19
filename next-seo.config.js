@@ -4,7 +4,7 @@ export default {
   openGraph: {
     type: "website",
     locale: "ja_JP",
-    url: "https://localhost:3000/",
+    url: "https://kenken1199.netlify.app/",
     site_name: "BLOG",
   },
   twitter: {

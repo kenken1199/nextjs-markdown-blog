@@ -118,12 +118,12 @@ const Post = ({ frontMatter, content, slug }) => {
         description={frontMatter.description}
         openGraph={{
           type: "website",
-          url: `http:localhost:3000/posts/${slug}`,
+          url: `https://kenken1199.netlify.app/blog/posts/${slug}`,
           title: frontMatter.title,
           description: frontMatter.description,
           images: [
             {
-              url: `https://localhost:3000/${frontMatter.image}`,
+              url: `https://kenken1199.netlify.app/blog/${frontMatter.image}`,
               width: 1200,
               height: 700,
               alt: frontMatter.title,
