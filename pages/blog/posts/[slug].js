@@ -142,12 +142,17 @@ const Post = ({ frontMatter, content, slug }) => {
           />
         </div>
         <h1 className="mt-12">{frontMatter.title}</h1>
-        <span>{frontMatter.date}</span>
+        <div className="pb-2">{frontMatter.date}</div>
         <div className="space-x-2">
           {frontMatter.categories.map((category) => (
-            <span key={category}>
-              <Link href={`/blog/categories/${category}`}>{category}</Link>
-            </span>
+            <div key={category}>
+              <Link
+                className="no-underline text-xs font-medium text-slate-600 hover:text-slate-600 mt-2 mb-2 mr-2 px-3 p-2 border border-slate-300 rounded-2xl hover:bg-slate-300"
+                href={`/blog/categories/${category}`}
+              >
+                {category}
+              </Link>
+            </div>
           ))}
         </div>
         {toReactNode(content)}
