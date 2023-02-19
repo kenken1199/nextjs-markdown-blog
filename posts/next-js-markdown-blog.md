@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
 export default MyApp;
 ```
 
-[記事一覧](/)
+[記事一覧](/blog)
 
 ![Next.jsのWelcomeページ](http://localhost:3000/nextjs-welcome.png)
 

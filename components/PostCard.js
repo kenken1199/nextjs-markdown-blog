@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const PostCard = ({ post }) => {
   return (
-    <Link href={`/posts/${post.slug}`}>
+    <Link href={`/blog/posts/${post.slug}`}>
       <Image
         // className="border rounded-lg h-40 w-96"
         className="border rounded-lg h-3/5"

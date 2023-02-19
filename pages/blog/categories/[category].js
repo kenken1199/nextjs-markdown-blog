@@ -1,6 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-import PostCard from "../../components/PostCard";
+import PostCard from "@/components/PostCard";
 
 export const getStaticProps = async ({ params }) => {
   const files = fs.readdirSync("posts");

@@ -6,8 +6,10 @@ const Header = () => {
       <div className="max-w-4xl mx-auto flex justify-between items-center h-12">
         <Link href="/">LOGO</Link>
         <div className="flex">
-          <div className="pr-5">Blog</div>
-          <div>About</div>
+          <Link href="/blog" className="pr-5">
+            Blog
+          </Link>
+          <Link href="/about">About</Link>
         </div>
       </div>
     </header>

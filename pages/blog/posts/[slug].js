@@ -91,6 +91,7 @@ const Post = ({ frontMatter, content, slug }) => {
     return (
       <div className="relative max-w-full h-96">
         <Image src={src} alt={alt} layout="fill" objectFit="contain" />
+        {/* <Image src={src} alt={alt} width={500} height={500} /> */}
       </div>
     );
   };
@@ -144,7 +145,7 @@ const Post = ({ frontMatter, content, slug }) => {
         <div className="space-x-2">
           {frontMatter.categories.map((category) => (
             <span key={category}>
-              <Link href={`/categories/${category}`}>{category}</Link>
+              <Link href={`/blog/categories/${category}`}>{category}</Link>
             </span>
           ))}
         </div>
