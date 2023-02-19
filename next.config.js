@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["localhost"],
+    domains: ["https://delightful-malabi-a77eeb.netlify.app/"],
   },
 };
 
