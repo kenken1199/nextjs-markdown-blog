@@ -24,21 +24,21 @@ const index = () => {
         今まで幾度となく挫折してきた、英語とプログラミングの勉強とダイエットを真剣にやりはじめました。英語はTOEIC、プログラミングはPython、JavaScriptを中心に勉強しています。
       </p>
       <h3 className="text-xl mt-6">Region</h3>
-      <p>⛩ Mie, 🇯🇵 Japan</p>
+      <p className="mt-3">⛩ Mie, 🇯🇵 Japan</p>
       <h3 className="text-xl mt-6">Contact</h3>
       <Link
         href="mailto:nakamori.k@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        nakamori.k&lt;at&gt;gmail.com
+        <div className="mt-3">nakamori.k&lt;at&gt;gmail.com</div>
       </Link>
       <h2 className="text-2xl mt-6">Interest</h2>
       <ul class="list-disc pl-6">
-        <li>プログラミング</li>
-        <li>英語</li>
-        <li>ダーツ</li>
-        <li>音楽鑑賞</li>
+        <li className="mt-3">プログラミング</li>
+        <li className="mt-3">英語</li>
+        <li className="mt-3">ダーツ</li>
+        <li className="mt-3">音楽鑑賞</li>
       </ul>
       {/* <h3 className="text-xl mt-6">Music</h3>
       <div class="my-4 h-[105px] max-w-xl transition hover:bg-[color:var(--hover)]">
@@ -82,23 +82,25 @@ const index = () => {
       </div> */}
       <h2 className="text-2xl mt-6">Project</h2>
       <ul class="list-disc pl-6">
-        <li>
+        <li className="mt-3">
           <Link
             href="https://github.com/kenken1199/nextjs-markdown-blog"
             target="_blank"
             rel="noopener noreferrer"
           >
-            kenken1199.netlify.app
+            <code className="underline bg-gray-100">
+              kenken1199.netlify.app
+            </code>
           </Link>{" "}
           - このサイト
         </li>
-        <li>
+        <li className="mt-3">
           <Link
             href="https://github.com/kenken1199/mosaic-docker-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            mosaic-docker-app
+            <code className="underline bg-gray-100">mosaic-docker-app</code>
           </Link>{" "}
           - 人物の顔に自動でモザイクをかけるアプリ
         </li>
