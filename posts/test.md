@@ -1,6 +1,6 @@
 ---
 title: "test"
-date: "2022-07-13"
+date: "2022-07-1"
 description: "Next.jsでmarkdownファイルを利用したブログの構築手順を解説しています。"
 image: nextjs.png
 categories: ["react"]
