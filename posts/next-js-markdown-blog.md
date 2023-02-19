@@ -43,7 +43,7 @@ export default MyApp;
 
 [記事一覧](/blog)
 
-![Next.jsのWelcomeページ](http://localhost:3000/nextjs-welcome.png)
+![Next.jsのWelcomeページ](https://delightful-malabi-a77eeb.netlify.app/nextjs-welcome.png)
 
 npx create-next-app コマンドを利用して Next.js プロジェクトの作成を行います。
 
