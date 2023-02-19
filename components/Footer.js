@@ -6,12 +6,14 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100">
       <div className="max-w-4xl mx-auto flex justify-between items-center h-24">
-        <Link href="/">© My Blog</Link>
+        <Link className="ml-2" href="/">
+          © My Blog
+        </Link>
         <div className="flex">
           <Link href="https://twitter.com/kenken_1199" className="pr-5">
             <TwitterIcon />
           </Link>
-          <Link href="https://github.com/kenken1199">
+          <Link className="mr-2" href="https://github.com/kenken1199">
             <GitHubIcon />
           </Link>
         </div>

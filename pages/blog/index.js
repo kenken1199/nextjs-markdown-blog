@@ -37,7 +37,7 @@ export const getStaticProps = () => {
 export default function Home({ posts, pages }) {
   return (
     <div className="my-8">
-      <div className="grid grid-cols-3 gap-4">
+      <div className="sm:grid grid-cols-3 gap-4">
         {posts.map((post) => (
           <PostCard key={post.slug} post={post} />
         ))}

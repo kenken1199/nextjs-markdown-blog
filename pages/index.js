@@ -33,10 +33,10 @@ const index = () => {
         </p>
       </blockquote>
       <div class="border-2 border-gray-100 mb-10"></div>
-      <div className="mb-10  flex justify-between">
+      <div className="mb-10  sm:flex justify-between">
         <Link
           href="blog"
-          class="block w-[430px] p-6  bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          class="block sm:w-[430px] p-6 m-2  bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
         >
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Blog
@@ -47,7 +47,7 @@ const index = () => {
         </Link>
         <Link
           href="about"
-          class="block w-[430px] p-6  bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          class="block sm:w-[430px] p-6 m-2  bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
         >
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             About
