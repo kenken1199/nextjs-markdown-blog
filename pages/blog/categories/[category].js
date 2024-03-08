@@ -39,7 +39,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = () => {
-  const categories = ["TOEIC", "laravel", "react"];
+  const categories = ["TOEIC", "laravel", "react", "html"];
   const paths = categories.map((category) => ({ params: { category } }));
 
   return {
