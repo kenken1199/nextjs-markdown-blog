@@ -30,7 +30,7 @@ export async function getStaticProps({ params }) {
   const result = await unified()
     .use(remarkParse)
     .use(remarkPrism, {
-      plugins: ["line-numbers"],
+      plugins: ["line-numbers", "data-prismjs-copy"],
     })
     .use(remarkToc, {
       heading: "目次",
