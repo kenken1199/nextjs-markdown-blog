@@ -1,5 +1,5 @@
 ---
-title: "HTMLとは？基本的な概要から始める(1)"
+title: "HTMLとは？基本的な概要から始める(1) HTMLの基礎概念の紹介"
 date: "2024-03-8"
 description: "初心者向けにHTMLについて説明しています。"
 image: html.png
