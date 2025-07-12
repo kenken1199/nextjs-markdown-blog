@@ -43,7 +43,7 @@ const index = () => {
         <li className="mt-3">音楽鑑賞</li>
       </ul>
       {/* spotify1の埋め込み */}
-      <Spotify link="https://open.spotify.com/track/5ihDGnhQgMA0F0tk9fNLlA?si=4472348a63dd4f83" />
+      <Spotify link="https://open.spotify.com/intl-ja/track/4yOJrZbuWErrceGfZ0bR78?si=583140195a72498c" />{" "}
       {/* 埋め込みここまで */}
       <h2 className="text-2xl mt-6">Project</h2>
       <ul class="list-disc pl-6">
