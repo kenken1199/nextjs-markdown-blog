@@ -50,8 +50,8 @@ const index = () => {
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
-      ></iframe>
-      {/* 埋め込みここまで */}
+      />
+      ß{/* 埋め込みここまで */}
       <h2 className="text-2xl mt-6">Project</h2>
       <ul class="list-disc pl-6">
         <li className="mt-3">
