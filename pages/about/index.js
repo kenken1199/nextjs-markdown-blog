@@ -41,16 +41,7 @@ const index = () => {
         <li className="mt-3">音楽鑑賞</li>
       </ul>
       {/* spotify1の埋め込み */}
-      <iframe
-        style="border-radius:12px"
-        src="https://open.spotify.com/embed/track/4yOJrZbuWErrceGfZ0bR78?utm_source=generator"
-        width="100%"
-        height="352"
-        frameBorder="0"
-        allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-      />
+      <Spotify link="https://open.spotify.com/track/5ihDGnhQgMA0F0tk9fNLlA?si=4472348a63dd4f83" />
       {/* 埋め込みここまで */}
       <h2 className="text-2xl mt-6">Project</h2>
       <ul class="list-disc pl-6">
