@@ -40,46 +40,18 @@ const index = () => {
         <li className="mt-3">ダーツ</li>
         <li className="mt-3">音楽鑑賞</li>
       </ul>
-      {/* <h3 className="text-xl mt-6">Music</h3>
-      <div class="my-4 h-[105px] max-w-xl transition hover:bg-[color:var(--hover)]">
-        <a
-          href="https://open.spotify.com/playlist/1rrcstuv7f3SoULWaWq8Rx"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span class="my-4 flex h-full w-full overflow-hidden rounded-md border-2 border-solid border-[color:var(--line)]">
-            <span class="flex shrink grow-[4] basis-44 flex-col overflow-hidden p-4">
-              <span class="overflow-hidden text-ellipsis whitespace-nowrap font-bold">
-                current
-              </span>
-              <span class="min-h-[2em] overflow-hidden text-ellipsis whitespace-nowrap text-xs text-[color:var(--secondary)]">
-                current · Playlist · 134 songs · 2 likes
-              </span>
-              <span class="flex h-5 items-center gap-1.5 overflow-hidden text-ellipsis whitespace-nowrap text-xs">
-                <img
-                  src="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
-                  height="16"
-                  width="16"
-                  alt=""
-                  loading="lazy"
-                  class="fill-white"
-                />
-                open.spotify.com
-              </span>
-            </span>
-            <span class="flex max-w-[200px] shrink-[6] grow basis-44 overflow-hidden">
-              <img
-                src="https://mosaic.scdn.co/640/ab67616d00001e021116fcaa08591eaf39e8a352ab67616d00001e0224bbc6f98cda3a3b817cf705ab67616d00001e02588f7825b0b11fa855b611d4ab67616d00001e02d700845e98b043cc5ce7308e"
-                height="105"
-                width="200"
-                alt="og image"
-                loading="lazy"
-                class="object-cover"
-              />
-            </span>
-          </span>
-        </a>
-      </div> */}
+      {/* spotify1の埋め込み */}
+      <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/4yOJrZbuWErrceGfZ0bR78?utm_source=generator"
+        width="100%"
+        height="352"
+        frameBorder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+      {/* 埋め込みここまで */}
       <h2 className="text-2xl mt-6">Project</h2>
       <ul class="list-disc pl-6">
         <li className="mt-3">
